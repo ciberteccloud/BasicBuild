@@ -10,7 +10,7 @@ namespace TestBasicBuild
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Compilación via Jenkins");
+            Console.WriteLine($"{Mensajes.Greeting()} {Mensajes.Name()}");
         }   
              
     }
